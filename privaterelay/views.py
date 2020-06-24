@@ -26,7 +26,7 @@ from allauth.socialaccount.providers.fxa.views import (
 )
 
 from emails.models import RelayAddress
-from .models import Invitations, get_invitation
+from .models import get_invitation, Invitations
 
 
 FXA_PROFILE_CHANGE_EVENT = (
